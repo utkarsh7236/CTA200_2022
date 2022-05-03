@@ -1,0 +1,751 @@
+    1  cd
+    2  exit
+    3  top
+    4  uname
+    5  uname -s
+    6  lshw
+    7  lshw -short
+    8  grep MemTotal /proc/meminfo.
+    9  free
+   10  /cita/local/bin/passwd
+   11  exit
+   12  pwd
+   13  exit
+   14  ls
+   15  cat
+   16  ls
+   17  pwd
+   18  cd /
+   19  ls
+   20  cd fs
+   21  ls
+   22  cd lustre
+   23  ls
+   24  cd cita
+   25  ls
+   26  cd nasuyu
+   27  ls
+   28  cd /
+   29  ls
+   30  cd fs/lustre
+   31  ls
+   32  cd project
+   33  ls
+   34  cd ..
+   35  ls
+   36  cd scratch
+   37  ls
+   38  cd mali
+   39  ls
+   40  cd /
+   41  ls
+   42  ls =ls
+   43  ls -ls
+   44  ping mali@gw.cita.utoronto.ca
+   45  ping gw.cita.utoronto.ca
+   46  ls
+   47  ping -i 100 gw.cita.utoronto.ca
+   48  ls
+   49  exit
+   50  ls
+   51  pwd
+   52  ls -a
+   53  ls -l
+   54  ls -la
+   55  exit
+   56  ls
+   57  module avail
+   58  finger
+   59  finger Utkarsh Mali
+   60  vmstat -s
+   61  top
+   62  htop
+   63  cd /
+   64  ls
+   65  htop
+   66  ping i -30 www.google.com
+   67  ping -i 30 www.google.com
+   68  ping
+   69  ls
+   70  ping www.google.com
+   71  ping -i 30 www.google.com
+   72  ls
+   73  module avail
+   74  pwd
+   75  top
+   76  ls
+   77  cd /
+   78  ls
+   79  cd mnt/scratch-lustre
+   80  ls
+   81  cd mali
+   82  ls
+   83  cd guass2ds
+   84  cd guass2d
+   85  cd gauss2d
+   86  ls
+   87  ./gauss2d
+   88  /ls
+   89  ls
+   90  ./plot.py
+   91  python --version
+   92  module load python/2.7.12
+   93  module
+   94  module load gcc/5.4.0
+   95  module load python/2.7.12
+   96  ./plot.py
+   97  exit
+   98  ping -i 30 www.google.com
+   99  git config --global user.name "Utkarsh"
+  100  ping -i 180 www.google.com
+  101  git config --global user.email utkarsh7236@gmail.com
+  102  git config
+  103  git config --list
+  104  ping -i 180 www.google.com
+  105  cd ~
+  106  ls
+  107  mkdir -p repos/gauss2d.git
+  108  ls
+  109  cd repos
+  110  ls
+  111  dir
+  112  ping -i 180 www.google.com
+  113  cd repos/gauss2d.git
+  114  ls
+  115  cd ~
+  116  cd repos/gauss2d.git
+  117  ls
+  118  git init --bare
+  119  cd /mnt/scratch-lustre/mali/gauss2d
+  120  ls
+  121  git init
+  122  echo "*.o" > .gitignore
+  123  ls
+  124  ls -la
+  125  ping -i 180 www.google.com
+  126  git add gauss2d.cc Makefile plot.py .gitignore
+  127  git status
+  128  git commit -m "Working 2D Gaussian array generation code and plotting script"
+  129  git log
+  130  ping -i 180 www.google.com
+  131  git remote add origin /home/mali/repos/gauss2d.git
+  132  cat .git/config
+  133  git push --set-upstream origin master
+  134  ping -i 180 www.google.com
+  135  cat .git/config
+  136  ping -i 180 www.google.com
+  137  top
+  138  ls
+  139  exit
+  140  ssh mali@cosmo3.cita.utoronto.ca
+  141  exit
+  142  ssh mali@bubbles.cita.utoronto.ca
+  143  ls
+  144  ping -i 60 www.google.com
+  145  glances
+  146  pip install glances
+  147  wget -O- https://bit.ly/glances | /bin/bash
+  148  htop
+  149  pip --version
+  150  pip3 --version
+  151  pip install --upgrade pip
+  152  python3 -m pip install --upgrade pip
+  153  python -m pip --version
+  154  pip
+  155  pip help
+  156  pip install glances
+  157  pip install --user glances
+  158  brew install glances
+  159  ls
+  160  pwd
+  161  ls -l
+  162  ls -a
+  163  cs .pip
+  164  cd .pip
+  165  ls
+  166  pip install glances
+  167  pip install --index-url https://pypi.python.org/simple/ --upgrade pip
+  168  pip install --index-url=https://pypi.python.org/simple/ -U scikit-learn
+  169  rm -r ~/.pip/
+  170  lls
+  171  ;s
+  172  ls
+  173  cd ..
+  174  ls
+  175  ls -a
+  176  rm -r ~/.pip/
+  177  pip install glances
+  178  mkdir .pip
+  179  ls
+  180  ls -a
+  181  cd mali
+  182  ls
+  183  pip install --index-url=https://pypi.python.org/simple/ -U scikit-learn
+  184  ls -a
+  185  apt install python3-pip
+  186  install python3-pip
+  187  yum install python-pip
+  188  pip
+  189  pip -h
+  190  pip --version
+  191  cd /usr/lib/
+  192  ls
+  193  cd mali
+  194  cd /
+  195  ls
+  196  cd home
+  197  ls
+  198  q
+  199  cd mali
+  200  ls
+  201  ls -a
+  202  pip install glances
+  203  htop
+  204  pip --version
+  205  ping -i 60 www.netflix.com
+  206  ls
+  207  cd mali
+  208  ls -a
+  209  mkdir CTA200
+  210  ls
+  211  cd CTA200
+  212  git clone https://github.com/CITA/CTA200H.wiki.git
+  213  os
+  214  ls
+  215  cd CTA200H.wiki
+  216  ls
+  217  cd ..
+  218  ls
+  219  cd ..
+  220  ls
+  221  ping -i 60
+  222  ping -i 60 www.google.com
+  223  ls
+  224  cd CTA200
+  225  ls
+  226  ping -i 60 www.google.com
+  227  ls
+  228  cd CTA200H.wiki
+  229  ls
+  230  cd ..
+  231  ls
+  232  rmdir CTA200H.wiki
+  233  rmdir -r CTA200H.wiki
+  234  rmdir --help
+  235  rmdir -r CTA200H.wiki
+  236  ls
+  237  rmdir -rf CTA200H.wiki
+  238  ls
+  239  cd ..
+  240  ls
+  241  rmdir -r CTA200
+  242  cd CTA200
+  243  ls
+  244  rm -r CTA200H.wiki
+  245  rm -rf CTA200H.wiki
+  246  ls
+  247  cd ..
+  248  ls
+  249  cd CTA200
+  250  ls
+  251  git clone https://github.com/CITA/CTA200H.git
+  252  ls
+  253  CTA200H
+  254  cd CTA200H
+  255  ls
+  256  cd
+  257  cd ..
+  258  ls
+  259  cd ..
+  260  ls
+  261  cd home/mali
+  262  ls
+  263  pwd
+  264  pip install glances
+  265  ls
+  266  cd CTA200
+  267  ls
+  268  cd CTA200H
+  269  ls
+  270  ls -a
+  271  ping -i 60 www.google.com
+  272  cd lecture2
+  273  ls
+  274  hello.py
+  275  more hello.py
+  276  cat hello.py
+  277  python hello.py
+  278  cd /
+  279  ls
+  280  cd mnt/scratch-lustre
+  281  ls
+  282  cd mali
+  283  ls
+  284  cd ~cta200
+  285  ls
+  286  cd ..
+  287  ls
+  288  cd ..
+  289  ls
+  290  cd ~cta200
+  291  ls
+  292  pwd
+  293  find -name gauss2d
+  294  cd Research
+  295  ls
+  296  cd gauss2d
+  297  pwd
+  298  ssh mali@comso3.cita.utoronto.ca
+  299  ssh mali@cosmo3.cita.utoronto.ca
+  300  ls
+  301  cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/mali/gauss2d
+  302  cd /mnt/scratch-lustre/mali
+  303  ls
+  304  cd gauss2d
+  305  ls
+  306  more plot.py
+  307  more gauss2d.cc
+  308  less gauss2d.cc
+  309  cat Makefile
+  310  vim plot.py
+  311  gedit plot.py
+  312  make
+  313  ls
+  314  dir
+  315  ls -la
+  316  emacs -nw
+  317  ls
+  318  emacs -nw
+  319  gauss2d
+  320  ls
+  321  ./gauss2d
+  322  pwd
+  323  ssh mali@cosmo3.utoronto.ca
+  324  ssh mali@cosmo3.cita.utoronto.ca
+  325  ssh -X mali@gw.cita.utoronto.ca
+  326  ssh -X mali@cosmo3.cita.utoronto.ca
+  327  ls
+  328  cd /mnt/scratch-lustre/mali/gauss2d
+  329  ls
+  330  ./plot.py
+  331  module load gcc/5.4.0
+  332  module load python/2.7.12
+  333  ./plot.py
+  334  ls
+  335  gauss2d
+  336  ./gauss2d
+  337  ls
+  338  ls -a
+  339  ls -la
+  340  ./gauss2d
+  341  ls -la
+  342  ./gauss2d.cc
+  343  ./gauss2d.o
+  344  make
+  345  ./gauss2d
+  346  ls
+  347  ./plot.py data.txt
+  348  ls -la
+  349  make
+  350  ./gauss2d > data.txt
+  351  ./plot.py < data.txt
+  352  module
+  353  ls -la
+  354  exit
+  355  ping -i 180 www.google.com &
+  356  exit
+  357  ssh cosmo3
+  358  ssh -L 8888:localhost:8962 mali@gw.cita.utoronto.ca
+  359  ping -i 180 www.google.com &
+  360  exit
+  361  ssh -L 8962:localhost:8962 cosmo3
+  362  ping -i 180 www.google.com &
+  363  exit
+  364  exit
+  365  ping -i 180 www.google.com &
+  366  ls -a
+  367  exit
+  368  ssh -L 8818:localhost:8818 cosmo3
+  369  exit
+  370  ls
+  371  ping -i 60 www.google.com
+  372  who
+  373  ping -i 60 www.google.com
+  374  cd /mnt/scratch-lustre/mali/gauss2d
+  375  ls
+  376  ping -i 180 www.google.com
+  377  cd~
+  378  cd ~
+  379  ls
+  380  cd CTA200/CTA200H1
+  381  cd CTA200/CTA200H
+  382  ls
+  383  cd lecture2
+  384  ls
+  385  ping -i 180 www.google.com
+  386  more hello.py
+  387  more hello2.py
+  388  ping -i 180 www.google.com
+  389  which python
+  390  python --version
+  391  module
+  392  module avail
+  393  python
+  394  di
+  395  dir
+  396  ls-a
+  397  ls -la
+  398  python
+  399  ping -i 180 www.google.com
+  400  ipython
+  401  ping -i 180 www.google.com
+  402  module load gcc/5.4.0 python/3.8.2-rolling
+  403  module load gcc/5.4.0 python/3.8.2
+  404  module load gcc/9.3.0 python/3.8.2
+  405  module load gcc/9.3.0(Default) python/3.8.2
+  406  module load gcc/9.3.0 python/3.8.2
+  407  module load python/3.8.2
+  408  which jupyter
+  409  module load gcc/4.9.2 python/2.7.10-rolling
+  410  module load gcc/4.9.2 python/2.7.10 -rolling
+  411  module load gcc/4.9.2 python/2.7.10
+  412  module load gcc/5.4.0 python/2.7.10
+  413  module load python/2.7.10
+  414  jupyter notebook
+  415  module load gcc/5.4.0 python/2.7.10
+  416  ping -i 180 www.google.com &
+  417  who
+  418  module load gcc/4.9.2 python/2.7.10
+  419  jobs
+  420  module load gcc/4.9.2 python/2.7.10
+  421  module
+  422  module unload gcc/5.4.0
+  423  module load gcc/9.3.0
+  424  module load python/3.8.2
+  425  python --version
+  426  jupyter notebook &
+  427  jobs
+  428  ls
+  429  jobs
+  430  jupyter notebook &
+  431  lswho
+  432  who
+  433  jupyter notebook &
+  434  lsjobs
+  435  jobs
+  436  jupyter notebook && q
+  437  ping -i 180 www.google.com &
+  438  who
+  439  jobs
+  440  kill -9 `jobs -ps`
+  441  jobs
+  442  who
+  443  jupyter notebook --no-browser
+  444  ls
+  445  jobs
+  446  jupyter notebook &
+  447  jobs
+  448  jupyter notebook &
+  449  jobs
+  450  job
+  451  jobs
+  452  jupyter notebook &
+  453  jobs
+  454  kill -9 `jobs -ps`
+  455  jobs
+  456  kill %7 %8 %9
+  457  jobs
+  458  jupyter notebook
+  459  jupyter notebook --no-browser
+  460  jobs
+  461  jupyter notebook
+  462  jupyter notebook --no-browser
+  463  exit
+  464  ssh mali@cosmo3.utoronto.ca
+  465  ssh mali@cosmo3.cite.utoronto.ca
+  466  ssh mali@cosmo3.cita.utoronto.ca
+  467  exit
+  468  ping -i 180 www.google.com &
+  469  module
+  470  module avail
+  471  du
+  472  exit
+  473  ssh -L 8887:localhost:8887 cosmo3
+  474  exit
+  475  ssh cosmo3
+  476  who
+  477  ping -i 180 www.google.com &
+  478  jobs
+  479  jupyter notebook --no-browser
+  480  module load gcc/9.3.0
+  481  module load python/3.8.2
+  482  jupyter notebook --no-browser
+  483  ssh -L 8889:localhost:8889 cosmo3
+  484  ping -i 180 www.google.com &
+  485  jobs
+  486  top
+  487  pip install matplotlib
+  488  pip install pandas
+  489  exit
+  490  ssh calamari
+  491  ssh -L 8890:localhost:8890 calamari
+  492  who
+  493  kingcrab
+  494  ssh kingcrab
+  495  ssh calamari
+  496  ping -i 180 www.google.com &
+  497  jobs
+  498  ls
+  499  ls -a
+  500  pwd
+  501  jupyter notebook --no-browser
+  502  module load
+  503  module load gcc/9.3.0
+  504  module load python/3.8.2
+  505  jupyter notebook --no-browser
+  506  ping -i 180 www.google.com &
+  507  lshw
+  508  lshw -short
+  509  vi .procmailrc
+  510  nano .procmailrc
+  511  exit
+  512  top
+  513  ..
+  514  cd
+  515  pwd
+  516  cd..
+  517  cd.
+  518  ..
+  519  pwd
+  520  cd CTA200
+  521  pwd
+  522  ls
+  523  ls -a
+  524  git clone https://github.com/CITA/CTA200H.git
+  525  module avail
+  526  module list
+  527  ls -a
+  528  ls .
+  529  ls ..
+  530  ls
+  531  cd ..
+  532  ls
+  533  ls ..
+  534  ..
+  535  cd ..
+  536  ls
+  537  ls -a
+  538  pwd
+  539  cd mali
+  540  ls
+  541  ls -a
+  542  -la
+  543  ls -la
+  544  module avail python
+  545  ls
+  546  ls -a
+  547  cat /proc/cpuinfo
+  548  cat /proc/meminfo
+  549  pwd
+  550  ls
+  551  cd CTA200
+  552  ls
+  553  ls -a
+  554  cd CTA200H
+  555  cd ~murray
+  556  ls -a
+  557  cd papers
+  558  cd Papers
+  559  ls
+  560  ls -a
+  561  cd
+  562  cd ..
+  563  ls
+  564  cd mali
+  565  ls
+  566  ls -a
+  567  nano .procmailrc
+  568  cd ~murray
+  569  ls -la
+  570  cd Papers
+  571  ls -a
+  572  cd Hopkins
+  573  ls -a
+  574  cd All_Feedback
+  575  ls -la
+  576  ls
+  577  cd second_draft
+  578  ls -la
+  579  ls 
+  580  history
+  581  whoami
+  582  ls
+  583  cd ~mali
+  584  ls -a
+  585  cd CTA200
+  586  ls
+  587  cd CTA200H
+  588  ls
+  589  ls -a
+  590  cd ..
+  591  ls 
+  592  cd CTA200 (Old)
+  593  clear
+  594  pwd
+  595  cd ..
+  596  ls
+  597  cd ..
+  598  ls
+  599  cd fs
+  600  ls
+  601  cd lustre
+  602  ls
+  603  cd scratch/mali
+  604  ls
+  605  mkdir CTA200_2022
+  606  ls
+  607  cd CTA200_2022
+  608  ls
+  609  mkdir assignment_1
+  610  ls
+  611  cd assignment_1
+  612  ls
+  613  cat README.md
+  614  touch README.md
+  615  ls
+  616  cat README.md
+  617  ls
+  618  vi index.php
+  619  ls
+  620  vi README.md
+  621  ls
+  622  cat README.md
+  623  cd ~murray
+  624  ls
+  625  find .Hello_world.c
+  626  find. Hello_world.c
+  627  find Hello_world.c
+  628  ls
+  629  ls -a
+  630  ls
+  631  find Hello*
+  632  find *Hello*
+  633  find Hello
+  634  find ~name "Hello_world.c"
+  635  ls
+  636  cd CTA200H
+  637  ls
+  638  cd ..
+  639  pwd
+  640  find home/murray-name Hello_world.c
+  641  find home/murray -name Hello_world.c
+  642  find home/~murray -name Hello_world.c
+  643  find home/murray -name Hello_world.c
+  644  find -name Hello_world.c
+  645  find home/murray -name Hello_world.c
+  646  find home -name Hello_world.c
+  647  find -name Hello_world.py
+  648  find . Hello_world.py
+  649  pwd
+  650  find . Hello_world.c
+  651  ls
+  652  pwd
+  653  cd ..
+  654  find . Hello_world.c
+  655  cd murray
+  656  ls
+  657  find . Hello_world.c
+  658  find Hello_world.c
+  659  find . Hello_world.py
+  660  ls *.c
+  661  ls
+  662  cd ..
+  663  ls
+  664  cd murray
+  665  ls .py
+  666  ls *.c
+  667  ls *.py
+  668  cd ..
+  669  ls *.c
+  670  ls
+  671  cd ..
+  672  ls
+  673  cd home
+  674  ls
+  675  cd murray
+  676  ls
+  677  ls -a
+  678  ls *.c
+  679  find . -name "Hello_world*"
+  680  find . -name "Hello_world.py"
+  681  ls
+  682  pwd
+  683  find . -name "Hello_world.py"
+  684  pwd
+  685  find . -name "Hello_world.py"
+  686  pwd
+  687  find . -name "Hello_world.py"
+  688  ls *.c
+  689  ls *.py
+  690  ls *.c
+  691  pwd
+  692  find . -name "Hello_world.py"
+  693  find . -name "Hello_world.py" | grep "word" "Hello_world.py"
+  694  find . -name "Hello_world.c" | grep "word" "Hello_world.c"
+  695  find . -name "Hello_world.c" | grep "word" -l  "Hello_world.c"
+  696  pwd
+  697  ls 
+  698  find . -name "Hello_world.c" | grep "word" "Hello_world.c"
+  699  find . -name "Hello_world.c" | grep "word" Hello_world.c
+  700  find . -name "Hello_world.c" | grep "Hello_world.c"
+  701  ls *py
+  702  ls *c
+  703  cd Papers
+  704  ls
+  705  cd tmp
+  706  ls
+  707  cp Hellow_world.c /fs/lustre/scratch/mali
+  708  cp Hello_world.c /fs/lustre/scratch/mali
+  709  cp Hello_world.c /fs/lustre/scratch/mali/CTA200_2022/assignment_1
+  710  find . -name "Hello_world.py" | grep "Hello_world.py"
+  711  cd ..
+  712  ls
+  713  cd ..
+  714  pwd
+  715  find . -name "Hello_world.py" | grep "Hello_world.py"
+  716  cd tmp
+  717  ls
+  718  cp Hello_world.py /fs/lustre/scratch/mali/CTA200_2022/assignment_1
+  719  cd /fs/lustre/scratch/mali/CTA200_2022/assignment_1
+  720  ls
+  721  mv Hello_world.py Hello_world_mali.py
+  722  mv Hello_world.c Hello_world_mali.c
+  723  ls
+  724  gcc Hello_world_mali.c -o Hellow_world.x
+  725  ls
+  726  vi Hellow_world_mali.c
+  727  vi Hello_world_mali.c
+  728  vi Hello_world_mali.py
+  729  ls
+  730  Hello_world_mali.c
+  731  Hellow_world.x
+  732  .
+  733  .\Hellow_world_mali.c.out
+  734  \Hellow_world_mali.c.out
+  735  .\Hello_world_mali.c.out
+  736  \Hello_world_mali.c
+  737  gcc Hello_world_mali.c
+  738  Hello_world_mali.c
+  739  .\a.out
+  740  gcc Hello_world_mali.c
+  741  .\a.out
+  742  ./a.out
+  743  ./a.out > output_c.txt
+  744  ls
+  745  python Hello_world_mali.py
+  746  gcc Hello_world_mali.py
+  747  python3 Hello_world_mali.py
+  748  python3 Hello_world_mali.py > output_python.txt
+  749  ls
+  750  history
+  751  history > history.txt
